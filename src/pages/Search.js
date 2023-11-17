@@ -9,7 +9,7 @@ const Search = () => {
 	return (
 		<form className='search'>
 			<div className='search__input'>
-				<SearchIcon />
+				<SearchIcon className='searchIcon' />
 				<input type='text' />
 
 				<KeyboardHideIcon className='keyboard' />
@@ -21,7 +21,7 @@ const Search = () => {
 				<button type='submit' variant='outlined'>
 					Google Search
 				</button>
-				<button variant='outlined'>I am feeling lucy</button>
+				<button variant='outlined'>I'am Feeling Lucy</button>
 			</div>
 		</form>
 	);

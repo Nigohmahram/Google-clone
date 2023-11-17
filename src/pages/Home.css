@@ -17,20 +17,35 @@
 .home__headerLeft p {
 	margin-right: 20px;
 	font-size: 17px;
+	cursor: pointer;
+}
+.home__headerLeft p:hover {
+	text-decoration: underline;
 }
 .home__headerRight {
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .home__headerRight p {
 	margin-left: 20px;
 	font-size: 17px;
+	cursor: pointer;
+}
+.home__headerRight p:hover {
+	text-decoration: underline;
 }
 .home__headerRight > svg {
 	width: 30px;
 	height: 30px;
 	margin-left: 20px;
+}
+.appicon:hover {
+	color: darkslategray;
+}
+.avatar:hover {
+	color: darkslategray;
 }
 .home__headerRight .MuiAvatar-root {
 	margin-left: 20px;

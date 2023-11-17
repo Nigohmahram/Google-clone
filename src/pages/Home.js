@@ -15,8 +15,8 @@ const Home = () => {
 				<div className='home__headerRight'>
 					<p>Gmail</p>
 					<p>Images</p>
-					<AppsIcon />
-					<Avatar />
+					<AppsIcon className='appicon' />
+					<Avatar className='avatar' />
 				</div>
 			</div>
 			<div className='home__body'>
