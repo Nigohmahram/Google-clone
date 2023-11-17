@@ -1,0 +1,32 @@
+.search__input {
+	display: flex;
+	align-items: center;
+	border: 1px solid rgb(109, 57, 57);
+	height: 30px;
+	width: 600px;
+	padding: 10px 15px;
+	margin: 0px auto;
+	margin-top: 40px;
+	border-radius: 999px;
+}
+.search__input > input {
+	flex: 1;
+	padding: 8px 13px;
+	font-size: medium;
+	border: 0;
+	/* border-radius: px; */
+	outline: 0;
+}
+.photo {
+	color: darkslategray;
+	width: 15px;
+	height: 15px;
+}
+.microfon {
+	color: darkslategray;
+	margin-right: 10px;
+}
+.keyboard {
+	color: darkslategray;
+	margin-right: 10px;
+}
