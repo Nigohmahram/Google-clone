@@ -14,7 +14,7 @@
 	margin-right: 50px;
 }
 
-.searchPage__option {
+.searchPage__options {
 	display: flex;
 	align-items: center;
 	color: gray;
@@ -23,14 +23,23 @@
 .searchPage__option a {
 	text-decoration: none;
 	color: gray;
+	margin-left: 4px;
+	font-size: 18px;
+	font-weight: normal;
 }
 .searchPage__optionsLeft,
+.searchPage__optionsRight {
+	display: flex;
+	align-items: center;
+	/* text-align: right; */
+}
 .searchPage__option {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
+	margin-right: 20px;
 }
-.search__pages {
-	display: flex;
+.searchPage__optionsRight {
+	margin-left: 80px;
 }
 .search__input {
 	margin-top: 0;
