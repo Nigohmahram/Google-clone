@@ -5,7 +5,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import AddAPhotoIcon from '@material-ui/icons/AddAPhoto';
 import KeyboardHideIcon from '@material-ui/icons/KeyboardHide';
 
-const Search = () => {
+const Search = hidebuttons => {
 	return (
 		<form className='search'>
 			<div className='search__input'>
@@ -16,6 +16,15 @@ const Search = () => {
 				<MicIcon className='microfon' />
 				<AddAPhotoIcon className='photo' />
 			</div>
+
+			{!hidebuttons && (
+				<div className='search__buttons'>
+					<button type='submit' variant='outlined'>
+						Google Search
+					</button>
+					<button variant='outlined'>I'am Feeling Lucy</button>
+				</div>
+			)}
 
 			<div className='search__buttons'>
 				<button type='submit' variant='outlined'>
